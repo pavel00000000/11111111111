@@ -1,5 +1,5 @@
 ﻿public delegate void MotionDetectedEvent(string location);
-
+ 
 class MotionSensor
 {
     public event MotionDetectedEvent? ChangeConsoleColor;
