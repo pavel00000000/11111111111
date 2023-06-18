@@ -5,7 +5,7 @@ class MotionSensor
     public event MotionDetectedEvent? ChangeConsoleColor;
     public string Name { get; set; }
 
-    public MotionSensor(string name)
+    public    MotionSensor(string name)
     {
         Name = name;
     }
