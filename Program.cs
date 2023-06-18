@@ -1,5 +1,5 @@
 ﻿public delegate void MotionDetectedEvent(string location);
- hgc
+ 
 class MotionSensor
 {
     public event MotionDetectedEvent? ChangeConsoleColor;
